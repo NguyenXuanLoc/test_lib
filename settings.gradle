@@ -13,5 +13,7 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "test_lib"
-include ':app'
-include ':mylibrary'
+include ':app',':selector',':ucrop',':compress'
+include ':camerax'
+include ':ijkplayer-java'
+
